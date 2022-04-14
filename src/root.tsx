@@ -1,7 +1,11 @@
 import { App } from './app';
 
 function Root() {
-  return <App />;
+  return (
+    <>
+      <App />
+    </>
+  );
 }
 
 export { Root };
